@@ -126,7 +126,11 @@ a {
 
 /*------COLLABS MAIN-----*/
 
-
+.collabs_main {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
 
 .collabs_item {
     background-color: #a8a8a8;
@@ -149,8 +153,9 @@ a {
 .work_main {
 
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     scroll-behavior: smooth;
+    background-color: #0e0e0e;
 }
 
 
